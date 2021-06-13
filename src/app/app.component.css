@@ -1,0 +1,78 @@
+p {
+    font-family: Lato;
+  }
+  .search-results {
+    height: 100%;
+  }
+  .title {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-70%);
+    left: 0;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    width: 100%;
+  }
+  .title small {
+    color: #eaeaea;
+  }
+  .flex-container {
+    display: flex;
+    align-items: stretch;
+  }
+  .flex-container > div {
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+  }
+  .mainRepoContent{
+    border: 1px solid;
+    border-radius: 18px;
+    margin-bottom: 2%;
+    margin-top:20px;
+  }
+  .subRepoContent{
+    text-align: left!important;
+    font-size:14px!important;
+    line-height: 0px!important;
+    font-weight: bold;
+  }
+  .subSubContent{
+    font-size:11px!important;
+    line-height: 0px!important;
+  }
+  .inputBox{
+    border: 1px solid grey;
+    width: 15%;
+    border-radius: 6px;
+    padding-left: 1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .searchDiv{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    text-align: center;
+  }
+  .main{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .btnCls{
+    margin-left: 2%;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    padding: 6px;
+    border-radius: 6px;
+    width: 6%;
+    cursor:pointer;
+  }
+  input[type=submit][disabled] {
+    background-color: red!important;
+    opacity: 0.5!important;
+    cursor: not-allowed!important;
+  }
